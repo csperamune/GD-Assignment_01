@@ -8,7 +8,8 @@ public class playerManager : MonoBehaviour
     public static bool isGameOver;
     public GameObject gameOverScreen;
     public GameObject scoreCounter;
-
+    public GameObject bgAudio;
+    public GameObject crashAudio;
 
     private void Awake()
     {
@@ -25,13 +26,15 @@ public class playerManager : MonoBehaviour
     void Update()
     {
         if (isGameOver)
-        {   
+        {
+            crashAudio.SetActive(true);
             Invoke("gameOver", 1f);
         }
     }
 
     public void gameOver()
     {
+        bgAudio.SetActive(false);
         gameOverScreen.SetActive(true);
         scoreCounter.SetActive(false);
         Cursor.visible = true;

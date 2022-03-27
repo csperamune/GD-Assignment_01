@@ -9,6 +9,8 @@ public class playerController : MonoBehaviour
     private float moveInput;
     public ParticleSystem dust;
     public ParticleSystem jumpDust;
+    public GameObject jumpAudio;
+
 
     private Rigidbody2D rb;
 
@@ -60,6 +62,7 @@ public class playerController : MonoBehaviour
             if (isGrounded == true)
             {
                 createDust();
+                jumpAudio.SetActive(false);
                 rb.velocity = Vector2.up * jumpForce;
             }
             else
@@ -67,6 +70,7 @@ public class playerController : MonoBehaviour
                 if (canDoubleJump)
                 {
                     createJumpDust();
+                    jumpAudio.SetActive(true);
                     rb.velocity = Vector2.up * jumpForce;
                     canDoubleJump = false;
                 }
