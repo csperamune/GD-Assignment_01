@@ -11,6 +11,7 @@
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PlayerScriptAssemblies\Unity.2D.Animation.Runtime.dll"
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PlayerScriptAssemblies\Unity.2D.Common.Runtime.dll"
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PlayerScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll"
+-a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PlayerScriptAssemblies\Unity.Postprocessing.Runtime.dll"
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
 -a="F:\Academic\SLIIT\4th Year\1st sem\GD\GD-Assignment_01\GD_2d_Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll"
